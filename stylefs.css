@@ -1,0 +1,125 @@
+html {
+    overflow-x: hidden;
+    color: dimgray;
+}
+
+#column1 {
+    font-size: 72pt;
+    position: absolute;
+    left: 20px;
+    top: -80px;
+    letter-spacing: -5px;
+    animation: fsc 15s infinite;
+}
+
+#column2 {
+    width: 100%;
+    position: relative;
+    font-size: 280pt;
+    letter-spacing: -10px;
+    line-height: 160px;
+    top: -300px;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+#Babel {
+    position: relative;
+    font-size: 200pt;
+    letter-spacing: -10px;
+    top: -600px;
+}
+
+#Babel2 {
+    position: relative;
+    font-size: 150pt; 
+    letter-spacing: -10px;
+    top: -900px;
+}
+
+#Babel3 {
+    position: relative;
+    font-size: 100pt;
+    letter-spacing: -10px;
+    top: -1100px;
+}
+
+#Babel4 {
+    position: relative;
+    font-size: 120pt;
+    letter-spacing: -10px;
+    top: -1250px;
+}
+
+#Babel5 {
+    position: relative;
+    font-size: 150pt;
+    letter-spacing: -10px;
+    top: -1450px;
+}
+
+#Babel6 {
+    position: relative;
+    font-size: 200pt;
+    letter-spacing: -10px;
+    top: -1730px;
+}
+
+#Babel7 {
+    position: relative;
+    font-size: 250pt;
+    letter-spacing: -10px;
+    top: -2080px;
+}
+
+#Babel8 {
+    position: relative;
+    font-size: 280pt;
+    letter-spacing: -10px;
+    top: -2500px;
+}
+#Babel9 {
+    position: relative;
+    font-size: 250pt;
+    letter-spacing: -10px;
+    top: -2920px;
+}
+
+#babels {
+    transition: font-size 5s;
+}
+#babels:hover {
+    font-size: 400pt;
+}
+#gib1 {
+    font-size: 7pt;
+    display: flex;
+    position: absolute;
+    top: 4300px;
+    width: 30%;
+    left: 30px;
+    font-size: 24pt;
+    transition: font-size 5s;
+}
+#gib1:hover {
+    font-size: 67pt;
+    width: 100%;
+}
+p{
+    display: block;
+}
+#p1 {
+    color: black;
+}
+#p2 {
+    color: black;
+}
+#p3 {
+    display: flex;
+}

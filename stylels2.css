@@ -1,0 +1,152 @@
+html {
+    overflow-x: hidden;
+}
+
+#column1 {
+    width: 300px;
+    position: absolute;
+    transition: letter-spacing 3s;
+    animation-name: lsp1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    color: grey;
+}
+@keyframes lsp1{
+    0% {letter-spacing: 1px;}
+    10% {letter-spacing: -50px;}
+    25% {letter-spacing: -100px;}
+    30% {letter-spacing: -150px;}
+    40% {letter-spacing: -200px;}
+    50% {letter-spacing: -300px;}
+    60% {letter-spacing: -200px;}
+    75% {letter-spacing: -150px;}
+    80% {letter-spacing: -100px;}
+    90% {letter-spacing: -50px;}
+    91% {letter-spacing: -20px;}
+    93% {letter-spacing: -10px;}
+    95% {letter-spacing: 1px;}
+    97% {letter-spacing: 1px;}
+    98% {letter-spacing: 1px;}
+    100% {letter-spacing: 1px;}
+}
+#column2 {
+    width: 300px;
+    position: relative;
+    left: 320px;
+    top: 300px;
+    animation-name: lsp2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    color: grey;
+}
+@keyframes lsp2{
+    0% {letter-spacing: 1px;}
+    25% {letter-spacing: -50px;}
+    50% {letter-spacing: -100px;}
+    75% {letter-spacing: -50px;}
+    80% {letter-spacing: -20px;}
+    85% {letter-spacing: -10px;}
+    90% {letter-spacing: -5px;}
+    92% {letter-spacing: 1px;}
+    93% {letter-spacing: 1px;}
+    95% {letter-spacing: 1px;}
+    100% {letter-spacing: 1px;}
+}
+#symbols {
+    animation-name: grow;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    position: absolute;
+    left: 327px;
+    top: 270px;
+}
+#symbols a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
+@keyframes grow{
+    0% {font-size: 10pt;}
+    20% {font-size: 20pt;}
+    40% {font-size: 30pt;}
+    50% {font-size: 50pt;}
+    60% {font-size: 30pt;}
+    80% {font-size: 20pt;}
+    100% {font-size: 10pt;}
+}
+#column3 {
+    position: absolute;
+    left: 640px;
+    width: 300px;
+    top: 100px;
+    animation: c3ls 30s infinite;
+    color: grey;
+}
+@keyframes c3ls {
+    0% {letter-spacing: 1px;}
+    5% {letter-spacing: 1px;}
+    7% {letter-spacing: 1px;}
+    10% {letter-spacing: -5px;}
+    20% {letter-spacing: -20px;}
+    40% {letter-spacing: -50px;}
+    60% {letter-spacing: -20px;}
+    80% {letter-spacing: -5px;}
+    90% {letter-spacing: 1px;}
+    95% {letter-spacing: 1px;}
+    100% {letter-spacing: 1px;}
+}
+#text-container {
+    position: absolute;
+    left: 960px;
+    top: 300px;
+    color: black;
+}
+#text-container:visited {
+    color: black;
+}
+#column3plus {
+    position: absolute;
+    left: 640px;
+    width: 300px;
+    top: 1200px;
+    animation: c3p 20s infinite;
+    color: grey;
+}
+@keyframes c3p{
+    0% {letter-spacing: 1px;}
+    5% {letter-spacing: 1px;}
+    7% {letter-spacing: 1px;}
+    10% {letter-spacing: -5px;}
+    20% {letter-spacing: -20px;}
+    40% {letter-spacing: -50px;}
+    60% {letter-spacing: -20px;}
+    80% {letter-spacing: -5px;}
+    90% {letter-spacing: -5px;}
+    95% {letter-spacing: -20px;}
+    100% {letter-spacing: 1px;}
+}
+#column2plusplus {
+    top: 1200px;
+    width: 300px;
+    position: absolute;
+    left: 320px;
+    animation: c2pp 10s infinite;
+    color: gray;
+}
+@keyframes c2pp {
+    0% {letter-spacing: 1px;}
+    10% {letter-spacing: 50px;}
+    25% {letter-spacing: 100px;}
+    30% {letter-spacing: 150px;}
+    40% {letter-spacing: 200px;}
+    50% {letter-spacing: 300px;}
+    60% {letter-spacing: 200px;}
+    75% {letter-spacing: 150px;}
+    80% {letter-spacing: 100px;}
+    90% {letter-spacing: 50px;}
+    91% {letter-spacing: 20px;}
+    93% {letter-spacing: 10px;}
+    95% {letter-spacing: 1px;}
+    97% {letter-spacing: 1px;}
+    98% {letter-spacing: 1px;}
+    100% {letter-spacing: 1px;}
+}

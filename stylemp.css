@@ -1,0 +1,155 @@
+html {
+    overflow-x: hidden;
+}
+
+#title1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#line1 {
+    height: 1080px;
+    border-left: 0px solid black;
+    position:absolute;
+}
+#column1 {
+    width: 300px;
+    position: absolute;
+    animation: lsp 20s infinite, letsp 10s infinite;
+}
+@keyframes letsp {
+    0% {letter-spacing: 0px;}
+    15% {letter-spacing: 1px;}
+    25% {letter-spacing: 2px;}
+    35% {letter-spacing: 3px;}
+    50% {letter-spacing: 5px;}
+    65% {letter-spacing: 3px;}
+    75% {letter-spacing: 2px;}
+    85% {letter-spacing: 1px;}
+    100% {letter-spacing: 0px;}
+}
+@keyframes lsp {
+    0% {top:300px;}
+    15% {top: 500px;}
+    25% {top: 700px;}
+    35% {top: 1000px;}
+    45% {top: 1200px;}
+    50% {top: 1400px;}
+    65% {top: 1200px;}
+    75% {top: 1000px;}
+    85% {top: 700px;}
+    95% {top: 500px;}
+    100% {top: 300px;}
+}
+#column2 {
+    width: 300px;
+    position: relative;
+    left: 320px;
+    top: 400px;
+    color:dimgray;
+    animation: c2move 20s infinite;
+}
+@keyframes c2move {
+    0% {top: 400px;}
+    25% {top: 200px;}
+    50% {top: 1px;}
+    75% {top: 200px}
+    100% {top: 400px;}
+}
+#column2plus {
+    width: 300px;
+    position: relative;
+    left: 320px;
+    top: 800px;
+    color:gray;
+    animation: c2move 7s infinite;
+}
+@keyframes c2move{
+    0% {left: 320px;}
+    25% {left: 420px;}
+    50% {left: 600px;}
+    75% {left: 420px;}
+    100% {left: 320px;}
+}
+#column3 {
+    width: 300px;
+    position: absolute;
+    left: 640px;
+    top: 1000px;
+    transition: font-size 3s;
+    animation-name: left3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes left3 {
+    0% {left:640px;}
+    25% {left: 325px;}
+    50% {left: 640px;}
+    75% {left: 840px;}
+    100% {left: 640px;}
+}
+#column4 {
+    width: 300px;
+    position: absolute;
+    left: 960px;
+    top: 300px;
+    color:gray;
+    animation: c4move 10s infinite;
+}
+@keyframes c4move{
+    0% {left: 960px;}
+    25% {left: 860px;}
+    50% {left: 740px;}
+    75% {left: 860px;}
+    100% {left: 960px;}
+}
+#title1 {
+    position: relative;
+    left: 950px;
+    width: 300px;
+    font-size: 35pt;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+#gone {
+    position: relative;
+}
+#column4plus {
+    width: 300px;
+    position: absolute;
+    left: 960px;
+    top: 1415px;
+    color:gray;
+}
+#column3plus {
+    width: 300px;
+    position: absolute;
+    left: 640px;
+    top: 1850px;
+    animation-name: leftr;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes leftr {
+0% {left: 640px;}
+25% {left: 320px;}
+50% {left: 10px;}
+75% {left: 320px;}
+100% {left: 640px;}
+}
+#gone {
+    animation: gonefs 10s infinite;
+}
+@keyframes gonefs {
+    0% {font-size: 12pt;}
+    10% {font-size: 18pt;}
+    20% {font-size: 24pt;}
+    30% {font-size: 30pt;}
+    40% {font-size: 36pt;}
+    50% {font-size: 42pt;}
+    60% {font-size: 36pt;}
+    70% {font-size: 30pt;}
+    80% {font-size: 24pt;}
+    90% {font-size: 18pt;}
+    100% {font-size: 12pt;}
+}

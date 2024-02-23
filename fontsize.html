@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>P2</title>
+    <link rel="stylesheet" href="stylefs.css"/>
+    <script src="scriptfs.js" defer></script>
+  </head>
+  <body>
+    <div id="column1">
+        <p id="changing-text">
+            When it was announced that the Library contained all books, the first reaction was unbounded joy. All men felt themselves the possessors of an intact and secret treasure. There was no personal problem, no world problem, whose eloquent solution did not exist-somewhere in some hexagon. The universe was justified; the universe suddenly became congruent with the unlimited width and breadth of humankind's hope. At that period there was much talk of The Vindications-books of apologire and prophecies that would vindicate for all time the actions of every person in the universe and that held wondrous arcana for men's futures. Thousands of greedy individuals abandoned their sweet native hexagons and rushed downstairs, upstairs, spurred by the vain desire to find their Vindication. These pilgrims squabbled in the narrow corridors, muttered dark imprecations, strangled one another on the divine staircases, threw deceiving volumes down ventilation shafts, were themselves hurled to their deaths by men of distant regions. Others went insane ... . The Vindications do exist (I have seen two of them, which refer to persons in the future, persons perhaps not imaginary), but those who went in quest of them failed to recall that the chance of a man's finding his own Vindication, or some perfidious version of his own, can be calculated to be zero.
+        </p>
+        <a href="textgen.html"><div id="column2"><p>B</p></div></a>
+        <div id="babels">
+        <div id="Babel">
+            <p>BABEL</p>
+        </div>
+        <div id="Babel2">
+            <p>BABLL</p>
+        </div>
+        <div id="Babel3">
+            <p>BKBLL</p>
+        </div>
+        <div id="Babel4">
+            <p>BKSLL</p>
+        </div>
+        <div id="Babel5">
+            <p>BPVWO</p>
+        </div>
+        <div id="Babel6">
+            <p>XXZRL</p>
+        </div>
+        <div id="Babel7">
+            <p>BABEL</p>
+        </div>
+        <div id="Babel8">
+            <p>BABEL</p>
+        </div>
+        <div id="Babel9">
+            <p>BABEL</p>
+        </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const column2 = document.getElementById('column2');
+            const pElement = column2.querySelector('p');
+            const wordToGenerate = 'ABEL';
+            let index = 0;
+            let intervalId;
+
+            function generateWord() {
+                if (index < wordToGenerate.length) {
+                    pElement.textContent += wordToGenerate[index];
+                    index++;
+                } else {
+                    clearInterval(intervalId);
+                }
+            }
+
+            setTimeout(() => {
+                intervalId = setInterval(generateWord, 100); 
+            }, 1000); 
+        });
+        </script>
+    <a href="letterspacing.html">
+    <div id="gib1">
+        <p id="p1">
+            First: The Library has existed ab aeternitate. That truth, whose immediate corollary is the future eternity of the world, no rational mind can doubt.
+            Man, the imperfect librarian, may be the work of chance or of malevolent
+            demiurges; the universe, with its elegant appointments--its bookshelves, its
+            enigmatic books, its indefatigable staircases for the traveler, and its water
+            closets for the seated librarian-can only be the handiwork of a god. In order to grasp the distance that separates the human and the divine, one has
+            only to compare these crude trembling symbols which my fallible hand
+            scrawls on the cover of a book with the organic letters inside-neat, delicate, deep black, and inimitably symmetrical. </p><p id="p2">Second: There are twenty-five orthographic symbols.' That discovery enabled mankind, three hundred years ago, to formulate a general theory of
+                the Library and thereby satisfactorily solve the riddle that no conjecture had
+                been able to divine-the formless and chaotic nature of virtually all books.
+                One book, which my father once saw in a hexagon in circuit 15-94, consisted
+                of the letters M C V perversely repeated from the first line to the last. Another (much consulted in this zone) is a mere labyrinth of letters whose penultimate page contains the phrase 0 Time thy pyramids. This much is
+                known: For every rational line or forthright statement there are leagues of
+                senseless cacophony, verbal nonsense, and incoherency. (I know of one
+                semibarbarous zone whose librarians repudiate the "vain and superstitious
+                habit" of trying to find sense in books, equating such a quest with attempting to find meaning in dreams or in the chaotic lines of the palm of one's
+                hand .... They will acknowledge that the inventors of writing imitated the
+                twenty-five natural symbols, but contend that that adoption was fortuitous,
+                coincidental, and that books in themselves have no meaning. That argument, as we shall see, is not entirely fallacious.) <p id="p3">off Wheave t le hend uspaus meshToflakndive tathan? whe toftue writy, t rt mathe and, aknd colind merm: t arent thel the th anowinto nge akive he the g outhis d toung, 'd band. iellintr perethilofo d ousllenakn grath thipay mithoche ws ile gr t comilentif thowsur'd opur s or, e hesuritosutay tr cke ay tomisietus thind ckepr uslee one, auno t-ag rdil ativerelie nathelle cknteancore atend thesud t st mawsthede nticer thisle ussing dke theand. ndrturube aly lesce. w'dr o ar bler d s sherome, rot trd off Wheave t le hend uspaus meshToflakndive tathan? whe toftue writy, t rt mathe and, aknd colind merm: t arent thel the th anowinto nge akive he the g outhis d toung, 'd band. iellintr perethilofo d ousllenakn grath thipay mithoche ws ile gr t comilentif thowsurer d s sherome, rot trd off Wheave t le hend uspaus meshToflakndive tathan? whe toftue writy, t rt mathe and, aknd colind merm: t arent thel the th anowinto nge akive he the g outhis d toung, 'dre atend thesud t st mawsthede nticer thisle ussing dke theand. ndrturube aly lesce. w'dr</p>
+    </div>
+</a>
+  </body>
+</html>
